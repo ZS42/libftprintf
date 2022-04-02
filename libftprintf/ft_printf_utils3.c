@@ -6,23 +6,11 @@
 /*   By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/16 14:59:50 by zsyyida           #+#    #+#             */
-/*   Updated: 2022/03/25 13:10:08 by zsyyida          ###   ########.fr       */
+/*   Updated: 2022/03/28 15:34:10 by zsyyida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-
-void	ft_print_u(unsigned int n, int *len)
-{
-	if (n >= 10)
-	{
-		ft_putnbr(n / 10, len);
-		ft_putnbr(n % 10, len);
-	}
-	else
-		ft_print_char(n + '0', len);
-	return ;
-}
 
 void	ft_print_hex(unsigned int n, int *len, char c)
 {

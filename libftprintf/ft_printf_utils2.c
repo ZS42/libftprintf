@@ -6,7 +6,7 @@
 /*   By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 12:41:34 by zsyyida           #+#    #+#             */
-/*   Updated: 2022/03/25 12:35:45 by zsyyida          ###   ########.fr       */
+/*   Updated: 2022/03/30 14:37:35 by zsyyida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,5 +68,17 @@ void	ft_putnbr(int n, int *len)
 	}
 	else
 		ft_print_char(n % 10 + '0', len);
+	return ;
+}
+
+void	ft_print_u(unsigned int n, int *len)
+{
+	if (n >= 10)
+	{
+		ft_putnbr(n / 10, len);
+		ft_putnbr(n % 10, len);
+	}
+	else
+		ft_print_char(n + '0', len);
 	return ;
 }
