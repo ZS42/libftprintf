@@ -19,3 +19,4 @@ in case of %u you can either add a condition to convert negative number to posit
 
 in case of %x and %X both use unsigned int input bc negative in hexa is represented by the first letter being above 7 and positive 7 or below. There is no real reason for ther to be two ie capital ad small except preference. No difference.
 
+<img width="1175" alt="ft_printf" src="https://user-images.githubusercontent.com/82111543/218945822-35ed8bde-d9d8-482a-a8b4-60aeb7bc50ec.png">
