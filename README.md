@@ -9,6 +9,7 @@ Using the libtool command is forbidden.
 • Your libftprintf.a has to be created at the root of your repository.
 
 You have to implement the following conversions:
+
 • %c Prints a single character.
 
 • %s Prints a string (as defined by the common C convention).
