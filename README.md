@@ -1,3 +1,9 @@
+
+
+<img width="1175" alt="ft_printf" src="https://user-images.githubusercontent.com/82111543/218945822-35ed8bde-d9d8-482a-a8b4-60aeb7bc50ec.png">
+
+
+
 REQUIREMENTS
 
 
